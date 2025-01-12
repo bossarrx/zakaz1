@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- Подключение Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Подключение Bootstrap JS (с зависимостью от Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Стили для сектора товаров */
+/* Стили для карточек товаров */
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* Модальное окно */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    </style>
+</head>
+<body>
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title text-center">Наши Товары</h2>
+            <div class="row">
+                <!-- Пример товара (можно дублировать до 50 товаров) -->
+                <div class="col-md-4 col-lg-3 col-xl-2 mb-4">
+                    <div class="product-card" data-bs-toggle="modal" data-bs-target="#productModal1">
+                        <img src="./template-tivo-master/images/q1-removebg-preview.png" alt="product1" class="product-img">
+                        <div class="product-info">
+                            <h4 class="product-title">Товар 1</h4>
+                            <p class="product-description">Описание товара 1</p>
+                            <p class="product-price">--UZS</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Модальное окно для товара 1 -->
+                <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="productModalLabel">Товар 1</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./template-tivo-master/images/q1-removebg-preview.png" alt="product1" class="img-fluid mb-3">
+                                <p><strong>Описание:</strong> Описание товара 1.</p>
+                                <p><strong>Цена:</strong> --UZS</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 col-lg-3 col-xl-2 mb-4">
+                    <div class="product-card" data-bs-toggle="modal" data-bs-target="#productModal2">
+                        <img src="./template-tivo-master/images/q2-removebg-preview.png" alt="product2" class="product-img">
+                        <div class="product-info">
+                            <h4 class="product-title">Товар 2</h4>
+                            <p class="product-description">Описание товара 2</p>
+                            <p class="product-price">--UZS</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Модальное окно для товара 2 -->
+                <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="productModalLabel">Товар 2</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="path/to/product2.jpg" alt="product2" class="img-fluid mb-3">
+                                <p><strong>Описание:</strong> Описание товара 2.</p>
+                                <p><strong>Цена:</strong> --UZS</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Повторите блоки для других товаров (от 3 до 50) -->
+    
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section>
+    
+    
+</body>
+</html>
