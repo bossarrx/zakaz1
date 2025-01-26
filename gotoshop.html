@@ -11,6 +11,21 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+    <!-- Стили Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Скрипты Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
     <style>
         /* Стили для сектора товаров */
 /* Стили для карточек товаров */
@@ -69,11 +84,58 @@
 }
 
     </style>
+
+    
 </head>
 <body>
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" style="background-color: aliceblue; border-radius: 40px; margin-top: 12px; margin-left: 10px; margin-right: 10px;">
+        <div class="container" >
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/Layer_x0020_1.png" alt="Спонсор 1"></a> 
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button  style="color: #84e279; margin-right:12px; border-color: rgb(124, 255, 131);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style="color: #353535;" class="nav-link page-scroll" href="./index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: #353535;" class="nav-link page-scroll" href="./index.html#features">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: #353535;" class="nav-link page-scroll" href="./g-qw1256-fxrc.html">Контакты</a>
+                    </li>
+
+                    <!-- Dropdown Menu -->          
+                  
+                    <!-- end of dropdown menu -->
+
+                    <li class="nav-item">
+                        <a style="color: #a87f7f;" class="nav-link page-scroll" href="./gotoshop.html">Продукция</a>
+                    </li>
+                </ul>
+                <span class="nav-item">
+                    <a style="color: #353535; border-color: rgb(124, 255, 131);" class="btn-outline-sm" href="#">Позвонить</a>
+                </span>
+            </div>
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
     <section id="products" class="products-section">
         <div class="container">
-            <h2 class="section-title text-center">Наши Товары</h2>
+         
             <div class="row">
                 <!-- Пример товара (можно дублировать до 50 товаров) -->
                 <div class="col-md-4 col-lg-3 col-xl-2 mb-4">
@@ -82,7 +144,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 1</h4>
                             <p class="product-description">Описание товара 1</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +159,7 @@
                             <div class="modal-body">
                                 <img src="./images/у1.png" alt="product1" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 1.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -113,7 +175,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 2</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +190,7 @@
                             <div class="modal-body">
                                 <img src="./images/у2.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -146,7 +208,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 3</h4>
                             <p class="product-description">Описание товара 3</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +223,7 @@
                             <div class="modal-body">
                                 <img src="./images/у3.png" alt="product3" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 3.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -179,7 +241,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 4</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +256,7 @@
                             <div class="modal-body">
                                 <img src="./images/у4.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -212,7 +274,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 5</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +289,7 @@
                             <div class="modal-body">
                                 <img src="./images/у5.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -244,7 +306,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 6</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -259,7 +321,7 @@
                             <div class="modal-body">
                                 <img src="./images/у6.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -277,7 +339,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 7</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +354,7 @@
                             <div class="modal-body">
                                 <img src="./images/у7.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -309,7 +371,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 8</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -324,7 +386,7 @@
                             <div class="modal-body">
                                 <img src="./images/у8.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 8.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -340,7 +402,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 9</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -355,7 +417,7 @@
                             <div class="modal-body">
                                 <img src="./images/у9.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -371,7 +433,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 10</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -386,7 +448,7 @@
                             <div class="modal-body">
                                 <img src="./images/у10.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -402,7 +464,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 11</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -417,7 +479,7 @@
                             <div class="modal-body">
                                 <img src="./images/у11.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -433,7 +495,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 12</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -448,7 +510,7 @@
                             <div class="modal-body">
                                 <img src="./images/у12.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -464,7 +526,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 13</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -479,7 +541,7 @@
                             <div class="modal-body">
                                 <img src="./images/у13.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -495,7 +557,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 14</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -510,7 +572,7 @@
                             <div class="modal-body">
                                 <img src="./images/у14.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -527,7 +589,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 15</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -542,7 +604,7 @@
                             <div class="modal-body">
                                 <img src="./images/у15.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -558,7 +620,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 16</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -573,7 +635,7 @@
                             <div class="modal-body">
                                 <img src="./images/у16.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -589,7 +651,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 17</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -604,7 +666,7 @@
                             <div class="modal-body">
                                 <img src="./images/у17.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -620,7 +682,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 18</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -635,7 +697,7 @@
                             <div class="modal-body">
                                 <img src="./images/у18.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -652,7 +714,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 19</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -667,7 +729,7 @@
                             <div class="modal-body">
                                 <img src="./images/у19.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -684,7 +746,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 20</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -699,7 +761,7 @@
                             <div class="modal-body">
                                 <img src="./images/у20.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -715,7 +777,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 21</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -730,7 +792,7 @@
                             <div class="modal-body">
                                 <img src="./images/у21.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -749,7 +811,7 @@
                         <div class="product-info">
                             <h4 class="product-title">Товар 23</h4>
                             <p class="product-description">Описание товара 2</p>
-                            <p class="product-price">--UZS</p>
+                            <p class="product-price"></p>
                         </div>
                     </div>
                 </div>
@@ -764,7 +826,7 @@
                             <div class="modal-body">
                                 <img src="./images/у23.png" alt="product2" class="img-fluid mb-3">
                                 <p><strong>Описание:</strong> Описание товара 2.</p>
-                                <p><strong>Цена:</strong> --UZS</p>
+                                <p><strong></strong> </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
@@ -799,5 +861,14 @@
     </section>
     
     
+
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
